@@ -65,9 +65,11 @@ NeurodeskAppX does not currently support Windows on ARM.
 
 <Steps>
 
-1. [Download NeurodeskAppX for Linux](https://tinyrange.github.io/crumblecracker/#apps).
+1. Open the [downloads page](https://tinyrange.github.io/crumblecracker/#apps). In the **NeurodeskAppX** card, select **Linux**, then download the x86-64 executable.
 
-2. Save the downloaded file as `neurodeskappx`, then make it executable and run it:
+2. In your file manager, rename the downloaded file from `NeurodeskAppX_<version>_linux_amd64` to `neurodeskappx`. If you want to verify its checksum, do that before renaming it.
+
+3. Open a terminal in the folder containing `neurodeskappx`, then make it executable and run it:
 
    ```bash
    chmod +x neurodeskappx
@@ -76,7 +78,7 @@ NeurodeskAppX does not currently support Windows on ARM.
 
 </Steps>
 
-To make the command available from your user profile instead:
+Alternatively, from the same folder, move the executable into `~/.local/bin` and launch it there:
 
 ```bash
 mkdir -p ~/.local/bin
